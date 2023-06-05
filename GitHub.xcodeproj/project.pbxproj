@@ -14,6 +14,7 @@
 		3B02CADE2A2E13E900624A83 /* GitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02CADD2A2E13E900624A83 /* GitHubTests.swift */; };
 		3B02CAE82A2E13E900624A83 /* GitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02CAE72A2E13E900624A83 /* GitHubUITests.swift */; };
 		3B02CAEA2A2E13E900624A83 /* GitHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02CAE92A2E13E900624A83 /* GitHubUITestsLaunchTests.swift */; };
+		3B02CAF72A2E172F00624A83 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02CAF62A2E172F00624A83 /* MyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3B02CAE32A2E13E900624A83 /* GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B02CAE72A2E13E900624A83 /* GitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUITests.swift; sourceTree = "<group>"; };
 		3B02CAE92A2E13E900624A83 /* GitHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B02CAF62A2E172F00624A83 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3B02CACE2A2E13E700624A83 /* ContentView.swift */,
 				3B02CAD02A2E13E900624A83 /* Assets.xcassets */,
 				3B02CAD22A2E13E900624A83 /* Preview Content */,
+				3B02CAF62A2E172F00624A83 /* MyModel.swift */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B02CACF2A2E13E700624A83 /* ContentView.swift in Sources */,
+				3B02CAF72A2E172F00624A83 /* MyModel.swift in Sources */,
 				3B02CACD2A2E13E700624A83 /* GitHubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
